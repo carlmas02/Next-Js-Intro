@@ -4,12 +4,9 @@ import styles from '../styles/Home.module.css'
 const Navbar = () => {
   return (
     <React.Fragment>
-        <nav className={styles.navbar}>
-          <ul className={styles.list_items}>
-            <l1>Home</l1>
-            <l1>Login</l1>
-          </ul>
-        </nav>
+        <h1 class="p-4 mb-4 text-3xl font-bold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
+          NoteMeter
+        </h1>
     </React.Fragment>
   )
 }

@@ -62,9 +62,7 @@ export default function Home() {
       </Head>
 
       <main className={`${styles.main}`}>
-        <h1 class="p-4 mb-4 text-3xl font-bold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
-          NoteMeter
-        </h1>
+        <Navbar/>
 
         <form className={`${styles.form}`} onSubmit={addData}>
           <input
